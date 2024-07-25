@@ -1,0 +1,36 @@
+.shipping  {
+    font-family: sans-serif;
+    margin: 0 auto;
+    padding: 20px;
+    align-items: center;
+    margin-left: 8cm;
+  }
+  h1{
+    color: red;
+  }
+  .set{
+    text-align: left;
+    max-width: 800px;
+    margin-left: 8cm;
+    color: #4D4D4D ;
+    margin-left: 8cm;
+  }
+   h2, h3 {
+    text-align: left; 
+    margin-bottom: 20px;
+    color: black;
+  }
+  
+  p{
+    text-align: left;
+    margin-bottom: 15px;
+  }
+  ul {
+    list-style-type: disc;
+    margin-left: 20px;
+  }
+  
+  li {
+    margin-bottom: 10px;
+    text-align: left;
+  }

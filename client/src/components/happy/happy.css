@@ -1,0 +1,62 @@
+/* src/components/Testimonial.css */
+.testimonial-section {
+    text-align: center;
+    padding: 50px 20px;
+    margin-top: 75px;
+}
+
+.testimonial-section h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.testimonial {
+    position: relative;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    width: 80%;
+    
+
+}
+
+.quote-icon {
+    position: absolute;
+    top: -20px;
+    left: 20px;
+    font-size: 4em;
+    color: #ff0000;
+    font-family: 'Georgia', serif;
+}
+
+.testimonial p {
+    font-size: 1.2em;
+    color: #555;
+    line-height: 1.6;
+    margin: 40px 20px 20px 20px;
+    position: relative;
+    z-index: 1;
+}
+
+.customer-profile {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.customer-profile img {
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+    margin-right: 10px;
+    margin-top: 20px;
+}
+
+.customer-name {
+    font-size: 1.9em;
+    color: #333;
+    align-items: center;
+    
+}

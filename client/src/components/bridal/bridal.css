@@ -1,0 +1,19 @@
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: sans-serif;
+  }
+  
+  .title {
+    text-align: center;
+    font-size: 3em;
+    margin-bottom: 20px;
+    color: red;
+  }
+  
+  .paragraph {
+    text-align: justify;
+    line-height: 1.5;
+    color: #4D4D4D ;
+  }

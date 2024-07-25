@@ -1,0 +1,54 @@
+.faqcontainer {
+    font-family: sans-serif;
+    max-width: 90%;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .faqtitle {
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: red;
+  }
+  
+  .faqsection {
+    margin-bottom: 40px;
+    text-align: left;
+  }
+  
+  .faqsection h2 {
+    font-size: 1.5em;
+    margin-bottom: 2cm;
+    color: #333;
+    margin-left: 0.5cm;
+  }
+  
+  .faqsection ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .faqsection li {
+    margin-bottom: 5px;
+    font-size: 1em;
+  }
+  
+  .faqcta {
+    font-size: 1.5em;
+    margin-top: 2cm;
+    color: #333;
+    width: 100%;
+    height: 5cm;
+  background-color: gray;
+  }
+  .faqcta h2{
+   justify-content: center;
+   margin-top: 2.5cm;
+   text-align: center;
+  }
+  .line{
+    margin-bottom: 25px;
+    border: none;
+    border-top: 2px solid black; 
+  }

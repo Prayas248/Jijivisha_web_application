@@ -1,0 +1,340 @@
+
+
+.genproduct-data-container {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  width: 85%;
+  margin-left: 4cm;
+}
+.genform-container {
+  width: 100%;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  margin-bottom: 20px;
+}
+.product_main{
+  display: flex;
+}
+
+.genform-groups {
+  margin-bottom: 15px;
+  display: flex;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+input[type="text"] {
+  width: calc(100% - 30px);
+  padding: 8px;
+  margin-right: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.genpermalink-button {
+  padding: 8px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.genform-groupsadd{
+margin-bottom: 15px;
+display: flex;
+background-color: rgb(189, 186, 186);
+width: 30.5cm;
+height: 50px;
+}
+.genadd-media-button {
+  padding: 10px 20px;
+  background-color: #d9534f;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  height: 0.9cm;
+  width: 3cm;
+  text-align: center;
+  margin-left: 10px;
+ margin-top: 8px;
+}
+
+.genadd-media-button:hover {
+  background-color: #c9302c;
+}
+
+.midseo-form {
+width: 100%;
+margin: auto;
+padding: 20px;
+border: 1px solid #ddd;
+border-radius: 8px;
+background: #f9f9f9;
+}
+
+.midform-group {
+margin-bottom: 20px;
+display: flex;
+}
+
+.midform-group label {
+display: block;
+font-weight: bold;
+margin-bottom: 5px;
+text-align: left;
+}
+
+.midinput-group {
+align-items: center;
+}
+
+.midinput-group select{
+margin-bottom: 10px;
+}
+
+.midinput-group textarea {
+display: flex;
+height: 2.5cm;
+width: 17.3cm;
+}
+.midinput-group input{
+width: 25cm;
+}
+
+.midinput-group button {
+padding: 8px 12px;
+border: none;
+border-radius: 4px;
+background: white;
+color: black;
+cursor: pointer;
+margin-right: 5px;
+border: 1px solid black;
+}
+
+.genheader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+  margin-right: 20cm;
+}
+
+.genheader h2 {
+  margin: 0;
+}
+
+.gendrop-file {
+  background-color: red;
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  margin-bottom: 10px;
+width: 5cm;
+}
+
+.genmain-content {
+  display: flex;
+}
+
+.genproduct-data {
+  flex: 1;
+  margin-right: 20px;
+}
+
+.genproduct-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.genproduct-header h3 {
+  margin-right: 10px;
+}
+
+.genproduct-header select {
+  padding: 5px;
+}
+
+.genproduct-body {
+  display: flex;
+}
+
+.genSidebar {
+  width: 200px;
+  margin-right: 20px;
+  background-color: rgb(223, 221, 221);
+  color: black;
+  height: 350px;
+}
+
+.genSidebar ul {
+  list-style: none;
+  padding: 0;
+}
+
+.genSidebar ul li {
+  margin-bottom: 10px;
+  cursor: pointer;
+  
+}
+
+.genSidebar ul li.active {
+  font-weight: bold;
+}
+.general{
+  width: 20cm;
+}
+.genform-group {
+  margin-bottom: 1rem;
+  display: flex;
+}
+
+.genform-control {
+  display: block;
+  width: 100%;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #495057;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  border-radius: 0.25rem;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.geninput-group {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: stretch;
+  width: 100%;
+}
+
+.geninput-group-prepend {
+  display: flex;
+  align-items: center;
+  padding: 0.375rem 0.75rem;
+  background-color: #e9ecef;
+  border: 1px solid #ced4da;
+  border-radius: 0.25rem 0 0 0.25rem;
+  margin-right: -1px;
+}
+
+.geninput-group-text {
+  display: inline-block;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #495057;
+  text-align: center;
+  white-space: nowrap;
+  background-color: #e9ecef;
+  border: 1px solid #ced4da;
+  border-radius: 0.25rem;
+}
+
+.genbtn-primary {
+  background-color: #007bff;
+  border-color: #007bff;
+  color: #fff;
+}
+
+.genbtn-secondary {
+  background-color: #6c757d;
+  border-color: #6c757d;
+  color: #fff;
+}
+.genpublish-container {
+  width: 250px;
+  border: 1px solid black;
+  padding: 20px;
+  background-color: #fff;
+  height: 12cm;
+}
+
+.genpublish-section {
+  margin-bottom: 20px;
+}
+
+.genpublish-section button {
+  display: block;
+  width: fit-content;
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid black;
+  background-color: white;
+  cursor: pointer;
+  color: red;
+  height: 0.9cm;
+}
+.genpublish-immediately{
+  display: flex;
+}
+.genpu{
+  display: flex;
+}
+.genpublish-section .gensave-draft, .genpublish-section .genpreview {
+  display: inline-block;
+  width: 48%;
+  margin-right: 4%;
+}
+
+.genpublish-section .genpreview {
+  margin-right: 0;
+}
+
+.genpublish-section .genactions {
+  display: flex;
+  justify-content: space-between;
+}
+
+.genpublish-section .genactions button {
+  width: 48%;
+}
+
+.genpublish-section .genpublish {
+  background-color: #ff9800;
+  color: white;
+  border: none;
+  width: 4cm;
+  margin-left: 1.3cm;
+}
+
+.genpublish-section .gentrash {
+  background-color: #f44336;
+  color: white;
+  height: 1.2cm;
+}
+
+.genpublish-section label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.genpublish-section a {
+  color: #0073aa;
+  text-decoration: none;
+}
+
+.genproduct-image, .genproduct-gallery {
+  margin-bottom: 20px;
+}
+
+.genproduct-image button, .genproduct-gallery button {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid black;
+  background-color: white;
+  cursor: pointer;
+  color: blue;
+}

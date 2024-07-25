@@ -1,0 +1,91 @@
+/* src/components/ProductList.css */
+.latestproduct-list {
+    max-width: 80vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+}
+
+.latestlistContainer {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: nowrap;
+}
+
+.latestslidingInfo {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 110px;
+}
+
+.latestproductBar {
+  display: flex;
+  justify-content: space-between;
+  align-items: space-between;
+  text-align: center;
+  border-top: 1px solid;
+  border-bottom: 1px solid;
+  margin-bottom: 40px;
+}
+
+.latestproductBar p {
+  margin: 5px 30px;
+  padding: 15px;
+}
+
+.latestproductBar p:hover {
+  color: #ff0000;
+  cursor: pointer;
+}
+
+button.prevButton,
+button.nextButton {
+  max-width: 2%;
+  max-height: 2%;
+  background: none;
+  border: none;
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px; /* Adjust padding as needed */
+  z-index: 1;
+}
+
+.prevButton {
+  left: 7%;
+}
+.nextButton {
+  right: 7%;
+}
+
+button.prevButton img,
+button.nextButton img {
+  width: 40px;
+  height: 40px;
+}
+
+.prevButton img:hover,
+.nextButton img:hover {
+  filter: brightness(20%);
+}
+
+.latestviewAllText {
+  position: absolute;
+  color: #ff0000;
+  right: 5%;
+  transform: translateY(80%);
+}
+
+.latestviewAllText:hover {
+  cursor: pointer;
+}

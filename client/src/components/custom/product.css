@@ -1,0 +1,75 @@
+
+/* src/components/Product.css */
+.customproduct-card {
+    width: 350px;
+    height: 620px;
+    border: 1px solid #e0e0e0;
+    padding: 5px;
+    text-align: center;
+    transition: all 0.3s ease;
+    margin: 10px 20px;
+}
+
+.customproduct-card img {
+    width: 100%;
+    height: auto;
+}
+
+.customtitleContainer {
+  display: flex;
+  height: 120px;
+  flex: 100%;
+  margin-left: 5px;
+  margin-top: 20px;
+}
+
+.customtitleContainer h3 {
+    font-size: 1.2em;
+    margin: 10px 0;
+    flex: 90%;
+    text-align: left;
+    padding-left: 15px;
+}
+
+.customlikeImgContainer {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    padding-left: 20px;
+    padding-right: 20px;
+    height: auto;
+}
+
+.customlikeImg {
+  margin-top: 18px;
+  max-width: 100%;
+  height: auto;
+}
+
+.customproduct-card p {
+    color: #555;
+    font-size: 1.2em;
+    margin: 15px;
+    text-align: left;
+}
+
+.customadd-to-cart-btn {
+    width: 90%;
+    background-color: #fff;
+    border: 1px solid #555;
+    color: #555;
+    padding: 10px 20px;
+    margin: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.customproduct-card.hover {
+    border-color: #ff0000;
+}
+
+.customproduct-card.hover .customadd-to-cart-btn {
+    background-color: #ff0000;
+    color: #fff;
+    border: 1px solid #ff0000;
+}

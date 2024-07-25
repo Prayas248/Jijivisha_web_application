@@ -1,0 +1,38 @@
+.flex{
+    display: flex;
+    align-items: center;
+    gap : 3rem;
+    /* align-content: end; */
+}
+
+*{
+    margin: 0;
+}
+
+.nav{
+    display: flex;
+    width: 100vw;
+    align-items: center;
+    background-color: gray;
+    padding: 1rem 0  1rem 0.25rem;
+    text-align: center;
+    justify-content: space-evenly;
+}
+
+.imgh{
+    border-radius: 100%;
+    width: 100%;
+    height: 100%;
+}
+
+
+
+@media  screen and (max-width: 768px) {
+    .flex,.nav{
+        display: grid;
+        align-items: center;
+        justify-content: center;
+        width: auto;
+        gap: 1rem;
+    }
+}

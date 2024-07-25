@@ -1,0 +1,54 @@
+
+
+.check {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+  }
+  
+  header {
+    border-bottom: 1px solid #ccc;
+  }
+  
+  header h1 {
+    color: red;
+    margin: 0;
+    text-align: center;
+    font-size: 40px;
+  }
+  
+  .confirmation {
+    margin-top: 50px;
+  }
+  
+  .checkorder-summary {
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  .checkorder-summary .checkorder-info p,
+  .checkorder-summary .checkbank-details p {
+    margin: 5px 0;
+  }
+  
+  .checkorder-details {
+    margin-top: 20px;
+  }
+  .checkbank-details h3{
+    margin-top: 40px;
+  }
+  .checkorder-details table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .checkorder-details table th,
+  .checkorder-details table td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: left;
+  }
+  
+  .checkorder-details table th {
+    background-color: #f9f9f9;
+  }
+  

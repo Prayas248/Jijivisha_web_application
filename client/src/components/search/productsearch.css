@@ -1,0 +1,31 @@
+.product-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: left;
+  max-width: 100%;
+  margin-left: 40px;
+  margin-right: 40px;
+  column-gap: 10px;
+}
+
+.product {
+  background-color: #fff;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  margin: 20px;
+  text-align: left;
+  width: calc(21.333% - 5px);
+  height: auto;
+}
+
+.product img {
+  width: 100%;
+  height: auto
+}
+
+.product h3 {
+  margin: 10px 0;
+}
+
+.product p {
+  margin: 5px 0;
+}

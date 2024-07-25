@@ -1,0 +1,134 @@
+.checkout-container {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .checkout-title {
+    font-size: 2.5em;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: red;
+    text-align: center;
+  }
+  
+  .checkout-section {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .checkout-item {
+    width: 48%;
+    height: 0.5cm;
+    padding: 15px;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: rgb(221, 220, 220);
+  }
+  
+  
+  .checkout-item p {
+   margin-bottom: 3cm;
+  }
+  
+  .checkout-item a {
+    color: #007bff;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .checkout-item a:hover {
+    text-decoration: underline;
+  }
+.checkout-form {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+  }
+  
+  .billing-details, .order-summary {
+    width: 48%;
+  }
+  
+  .billing-details h2, .order-summary h2 {
+    margin-bottom: 20px;
+  }
+  
+  .billing-details label, .terms label {
+    display: block;
+    margin-bottom: 15px;
+  }
+  
+  .billing-details input, .order-summary input {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  .ordertop{
+    border: 1px solid black;
+    height: auto;
+  }
+  .ordert{
+    margin-left: 14px;
+    margin-right: 14px;
+  }
+  .orderimg{
+    width: auto;
+    height: 50px;
+  }
+  .product{
+    display: flex;
+    gap: 100px;
+  }
+  .product p{
+    margin-top: 15px;
+  }
+  .subtotal{
+    margin-top: 15px;
+  }
+  .order-item, .order-total {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    margin-top: 40px;
+  }
+  .payment-method label {
+    display: block;
+    margin-bottom: 15px;
+  }
+  .payment-method p {
+    margin-left: 20px;
+    font-size: 14px;
+  }
+  
+  .place-order {
+    width: 100%;
+    padding: 15px;
+    background-color: #d60000;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    text-align: center;
+  }
+  
+  .place-order:hover {
+    background-color: #b50000;
+  }
+  .terms{
+    margin-top: 20px;
+  }
+  .terms a {
+    color: red;
+    text-decoration: none;
+  }
+  
+  .terms a:hover {
+    text-decoration: underline;
+  }
+  

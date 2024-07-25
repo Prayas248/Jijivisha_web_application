@@ -1,0 +1,49 @@
+
+.product-categories {
+  width: 220px;
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 5px;
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+}
+.categories-header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+.categories-header button{
+  background-color: white;
+  color: black;
+  border: 1px solid black;
+  width: fit-content;
+}
+.categories-list {
+  max-height: 300px;
+  overflow-y: auto;
+}
+
+.category-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 5px;
+}
+
+.category-item input {
+  margin-right: 5px;
+}
+
+.add-category {
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+.add-category a {
+  text-decoration: none;
+  color: #0073aa;
+}
+
+.add-category a:hover {
+  text-decoration: underline;
+}

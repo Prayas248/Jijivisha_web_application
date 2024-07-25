@@ -1,0 +1,57 @@
+.feqcontainer {
+    width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid black;
+    margin-top: 3cm;
+    margin-left: 6cm;
+  }
+  
+  .feqproduct-search,
+  .feqdiscount,
+  .feqcheck-all {
+    margin-bottom: 10px;
+    display: flex;
+    gap: 30px;
+  }
+  .product-search-container {
+    position: relative; /* Make container relative for absolute positioning */
+  }
+  
+  .search-results {
+    position: absolute; /* Position results absolutely within the container */
+    top: 148%; /* Place results below the input field */
+    left: 0; /* Align results to the left edge of the container */
+    width: 100%; /* Make results as wide as the container */
+    background-color: white; /* Set background color for better visibility */
+    border: 1px solid #ddd; /* Add a border for styling */
+    list-style: none; /* Remove default list styling */
+    padding: 5px; /* Add some padding for better presentation */
+    z-index: 1; /* Ensure results appear above other elements */
+    max-height: 200px; /* Set a maximum height to prevent overflowing content */
+    overflow-y: auto; /* Enable scrolling if results exceed the max-height */
+  }
+  
+  .feqitems{
+    display: flex;
+  }
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  input[type="text"],
+  input[type="number"] {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid black;
+    border-radius: 4px;
+  }
+  
+  input[type="checkbox"] {
+    margin-right: 5px;
+  }
+  .result_button{
+    width: 500px;
+    height: auto;
+  }

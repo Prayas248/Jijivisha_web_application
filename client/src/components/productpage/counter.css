@@ -1,0 +1,23 @@
+
+.counterContainer {
+    margin-bottom: 20px;
+    }
+    
+    .counterComponent {
+      padding: 10px 20px;
+      font-size: 16px;
+      border: 1px solid black;
+      cursor: pointer;
+    }
+    
+    .counterSymbol {
+      padding: 10px 20px;
+      font-size: 16px;
+      border: 1px solid black;
+      cursor: pointer;
+    }
+    
+    .counterSymbol text {
+      transform : scale(4)
+    }
+    

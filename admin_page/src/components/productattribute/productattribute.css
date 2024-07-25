@@ -1,0 +1,87 @@
+
+.attribute-form {
+    width: 400px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #000;
+    border-radius: 8px;
+    background: #fff;
+    font-family: Arial, sans-serif;
+    margin-top: 3cm;
+  }
+  
+  .form-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .add-new,
+  .add-existing {
+    padding: 10px 15px;
+    border: 1px solid #000;
+    border-radius: 4px;
+    background: red;
+    color: white;
+    cursor: pointer;
+    margin-right: 10px;
+  }
+  
+  .add-existing {
+    display: flex;
+    align-items: center;
+  }
+  
+  .add-existing span {
+    margin-left: 5px;
+  }
+  
+  .form-header a {
+    color: blue;
+    cursor: pointer;
+    text-decoration: none;
+  }
+  
+  .form-header a:hover {
+    text-decoration: underline;
+  }
+  
+  .form-content {
+    margin-bottom: 20px;
+  }
+  
+  .form-group {
+    margin-bottom: 10px;
+  }
+  
+  .form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  .form-group input[type="text"],
+  .form-group textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #000;
+    border-radius: 4px;
+  }
+  
+  .form-group input[type="checkbox"] {
+    margin-right: 5px;
+  }
+  
+  .save-attributes {
+    padding: 10px 20px;
+    border: 1px solid #000;
+    border-radius: 4px;
+    background: red;
+    color: white;
+    cursor: pointer;
+    display: block;
+    width: 100%;
+    text-align: center;
+  }
+  

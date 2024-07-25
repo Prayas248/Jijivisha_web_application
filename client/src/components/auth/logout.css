@@ -1,0 +1,19 @@
+
+.redHeading {
+    color: red;
+    font-size: 50px;
+    margin-bottom: 40px;
+  }
+  
+  .appBarContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .paths {
+    font-size: 40px;
+    font-weight: bold;
+    margin: 15px 90px;
+  }
+  

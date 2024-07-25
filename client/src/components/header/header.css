@@ -1,0 +1,143 @@
+.dash-head{
+    background-color: rgb(185, 28, 28);
+    padding: 1rem 0 1rem 0;
+    color: #fff;
+}
+
+.flex{
+    display: flex;
+    align-items: center;
+}
+
+.textarea{
+    width: 80%;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    background-color: #f8f8f8;
+    resize: none;
+    padding: 0.5rem 0 0.5rem 0;
+}
+
+.flex-dash{
+    align-content:space-evenly ;
+}
+
+.logo{
+    width: 10%;
+    height: 10%;
+}
+
+.dash-button{
+    width: 20%;
+    padding: 0.25rem 0.5rem 0.25rem 0.5rem;
+    color: #fff;
+    background-color: rgb(185, 28, 28);
+}
+
+.flex-nav{
+    justify-content: center;
+    padding: 1rem 0 1rem 0;
+}
+.flex-nav div{
+    cursor: pointer;
+}
+
+.logo2{
+    width: 5%;
+    height: 5%;
+}
+
+.featured{
+    align-items: center;
+    font-size: 40px;
+    font-weight: 500;
+    margin-bottom: 20px;
+    margin-top: 60px;
+}
+.flex-logo{
+    justify-content: center;
+    padding: 0.5rem 0 0.5rem 0;
+}
+
+.dashimg-button{
+    /* position: relative;
+    right: 13%;
+    padding: 0.25rem; */
+    display: flex;
+}
+
+.but{
+    position: relative;
+    right: 15%;
+    margin-top:0.5rem ;
+}
+
+.dashimg{
+    width: auto;
+}
+
+.flex-dashimg{
+    width: 100%;
+    gap: 1rem;
+}
+
+
+.flex-outer{
+    padding: 2rem 1rem 2rem ;
+    width: 97vw;
+    justify-content: center;
+}
+
+.shop-b{
+    background-color: goldenrod;
+    padding: 0.25rem 0.5rem 0.25rem 0.5rem;
+   
+}
+
+.img-1{
+    position: relative;
+    top: -7rem;
+    left: 5rem;
+    font-size: 1.5rem;
+    margin-right: 1rem;
+    color: #fff;
+}
+
+.img-2{
+    position: relative;
+    top: -7rem;
+    left: 7rem;
+    margin-right: 1rem;
+    color: #fff;
+}
+
+.main{
+    width: 65vw;
+}
+.second{
+    width: 25vw;
+}
+.firstImage {
+    height: 460px;  /* Adjust as needed */
+    width: auto;   /* Adjust as needed */
+}
+.lastImage{
+    height: 930px;  /* Adjust as needed */
+    width: 500px;   /* Adjust as needed */
+}
+.secondImage{
+    width: 615px;
+    height: 400px;
+}
+.firstImage img,.secondImage img,.lastImage img {
+    object-fit:cover;
+    width: 100%;  /* Optional: Set width to 100% for full container width */
+    height: 100%; /* Optional: Set height to 100% for full container height */
+}
+.secondImage img{
+    object-position: top;
+}
+
+.upar{
+    margin-top: 70px;
+}

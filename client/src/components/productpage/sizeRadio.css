@@ -1,0 +1,30 @@
+
+.radioContainer input {
+    display: none;
+    margin: 40px 0px;
+  }
+  
+  .radioContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  
+  .radioContainer label {
+    flex: space-around;
+    border: 1px solid black;
+    padding: 10px 15px;
+    margin: -10px 5px;
+    transition: background-color 0.3s color 0.3s;
+    cursor: pointer;
+  }
+  
+  .radioContainer input:checked + label {
+    background-color: black;
+    color: white;
+  }
+  
+  .radioContainer label:hover {
+        background-color: lightgray;
+      }
+  

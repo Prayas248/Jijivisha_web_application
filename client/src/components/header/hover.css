@@ -1,0 +1,45 @@
+.Main_box{
+    width: 95%;
+    height: auto;
+    background-color: white;
+    margin-top: 10px;
+    display: flex;
+    position: absolute;
+    z-index: 20;
+    gap: 50px;
+    margin-left: 15px;
+}
+
+.Apparel{
+    display: flex;
+    flex-direction: column;
+   margin: 10px;
+   justify-content: left;
+   gap: 10px;
+   cursor: pointer;
+   text-align: left;
+}
+
+.top{
+    padding-bottom: 20px;
+    padding-top: 10px ;
+}
+.top h2{
+    color: red;
+}
+.subclass{
+    margin-left: 10px;
+    
+}
+.photo{
+     margin-left: 15px; 
+     height: 300px;
+     width: 180px; 
+     display: flex;
+     margin-top: 90px;
+     gap: 10px;
+    text-align: right;
+}
+.Apparel.hover{
+    background-color: red;
+}

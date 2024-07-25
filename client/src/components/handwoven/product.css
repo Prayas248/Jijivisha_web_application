@@ -1,0 +1,74 @@
+/* src/components/Product.css */
+.handwoven-card {
+    width: 350px;
+    height: 620px;
+    border: 1px solid #e0e0e0;
+    padding: 5px;
+    text-align: center;
+    transition: all 0.3s ease;
+    margin: 10px 20px;
+}
+
+.handwoven-card img {
+    width: 100%;
+    height: auto;
+}
+
+.handwoventitleContainer {
+  display: flex;
+  flex: 100%;
+  height: 120px;
+  margin-left: 5px;
+  margin-top: 20px;
+}
+
+.handwoventitleContainer h3 {
+    font-size: 1.2em;
+    margin: 10px 0;
+    flex: 90%;
+    text-align: left;
+    padding-left: 15px;
+}
+
+.handwovenlikeImgContainer {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    padding-left: 20px;
+    padding-right: 20px;
+    height: auto;
+}
+
+.handwovenlikeImg {
+  margin-top: 18px;
+  max-width: 100%;
+  height: auto;
+}
+
+.handwoven-card p {
+    color: #555;
+    font-size: 1.2em;
+    margin: 15px;
+    text-align: left;
+}
+
+.handwovenadd-to-cart-btn {
+    width: 90%;
+    background-color: #fff;
+    border: 1px solid #555;
+    color: #555;
+    padding: 10px 20px;
+    margin: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.handwoven-card.hover {
+    border-color: #ff0000;
+}
+
+.handwoven-card.hover .handwovenadd-to-cart-btn {
+    background-color: #ff0000;
+    color: #fff;
+    border: 1px solid #ff0000;
+}

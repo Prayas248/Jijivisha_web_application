@@ -1,0 +1,124 @@
+
+
+.footer {
+    background-color: white;
+    color: #292727;
+    text-align: center;
+    font-family: 'Arial', san-serif;
+    width: 100%;
+    bottom: 0;
+    
+  }
+  
+  .footerInfo {
+    background-color: #f7f5f6;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 40px;
+    margin-top: 100px;
+  }
+  
+  .mainFooter {
+    display: flex;
+    text-align: left;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: white;
+    color: 292727;
+    padding-top: 120px;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-bottom: 20px;
+    bottom: 0;
+  }
+  
+  .contact-section1{
+    padding-bottom: 20px;
+    margin-bottom: 15px;
+  }
+  
+  .paymentInfo {
+    padding-bottom: 20px;
+  }
+  
+  .thanks {
+    background-color: #f7f5f6;
+    padding: 5px;
+    margin-bottom: 5px;
+  }
+  
+  .copyright {
+    background-color: #323d34;
+    color: white;
+    padding: 5px;
+  }
+  
+  .footerLinks {
+    display: inline-block;
+    text-decoration: none;
+    color: inherit;
+    margin-bottom: 20px;
+  }
+  
+  .paymentInfo {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .greyFont {
+    color: grey;
+    font-size: 12px;
+    padding-bottom: 10px;
+  }
+  
+  .heading {
+    font-size: 1.25em;
+    font-weight: bold;
+    margin: 1em 0; 
+    line-height: 1.2;
+    padding-bottom: 25px;
+  }
+  
+  .contact-section1 {
+    padding-bottom: 15px;
+  }
+  
+  .inputEmail {
+    width: 200px;
+    height: 40px;
+  }
+  
+  .subscribeButton {
+    width: 100px;
+    height: 50px;
+    background-color: #323d34;
+    color: white;
+  }
+  
+  .infoIcons{
+    width: 40px;
+    height: auto;
+    padding: 8px;
+  }
+  
+  .paymentIcons {
+    width: 40px;
+    height: auto;
+    padding: 8px;
+  }
+  
+  .socialMediaIcons {
+    width: 25px;
+    height: auto;
+    padding: 8px;
+  }
+  
+  .jijivishaLogo {
+    width: 200px;
+    height: auto;
+    padding-bottom: 20px;
+  }
+  

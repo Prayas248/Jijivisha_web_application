@@ -1,0 +1,65 @@
+
+.values {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    background-color: rgb(209, 206, 206);
+  
+  }
+  
+  .mainValues {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .valueCard {
+    height: 350px;
+    width: 1100px;
+    display: flex;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    border: 1px solid grey;
+    background-color: white;
+  }
+  
+  .valueImageContainer {
+    flex: 55%;
+  }
+  
+  .valueParaContainer {
+    flex: 45%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-left: 70px;
+    padding-right: 70px;
+    text-align: left;
+  }
+  
+  .valueImage {
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+  }
+  
+  .blackText {
+    font-size: 40px;
+    font-weight: bold;
+    color: black;
+  }
+  
+  .redText {
+    font-size: 40px;
+    font-weight: bold;
+    color: red;
+
+  }
+  
+  .title {
+    margin-bottom: 40px;
+    margin-top: 40px;
+  }
+  

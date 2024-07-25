@@ -1,0 +1,57 @@
+/* src/components/ProductList.css */
+.blogproduct-list {
+    max-width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+}
+
+.bloglistContainer {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: nowrap;
+}
+
+.blogslidingInfo {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 3cm;
+}
+
+.blogproductBar {
+  display: flex;
+  justify-content: space-between;
+  align-items: space-between;
+  text-align: center;
+  border-top: 1px solid;
+  border-bottom: 1px solid;
+  margin-bottom: 40px;
+}
+
+.blogproductBar p {
+  margin: 5px 30px;
+  padding: 15px;
+}
+
+.blogproductBar p:hover {
+  color: #ff0000;
+  cursor: pointer;
+}
+
+
+.blogviewAllText {
+  position: absolute;
+  color: #ff0000;
+  right: 5%;
+  transform: translateY(80%);
+}
+
+.blogviewAllText:hover {
+  cursor: pointer;
+}

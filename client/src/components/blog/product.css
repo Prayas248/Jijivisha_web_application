@@ -1,0 +1,38 @@
+/* src/components/Product.css */
+.blogproduct-card {
+    max-width: 40%;
+    min-width: 23%;
+    border: 1px solid #e0e0e0;
+    padding: 5px;
+    text-align: center;
+    transition: all 0.3s ease;
+    margin: 10px 20px;
+}
+
+.blogproduct-card img {
+    width: 100%;
+    height: auto;
+}
+
+.blogtitleContainer {
+  display: flex;
+  flex: 100%;
+  margin-left: 5px;
+  margin-top: 20px;
+}
+
+.blogtitleContainer h3 {
+    font-size: 1.2em;
+    margin: 10px 0;
+    flex: 90%;
+    text-align: left;
+    padding-left: 15px;
+}
+
+
+.blogproduct-card h3 {
+    color: #555;
+    font-size: 1.2em;
+    margin: 15px;
+    text-align: left;
+}

@@ -1,0 +1,46 @@
+.perspective-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: pink;
+    font-family: 'Arial, sans-serif';
+    margin-top: 3cm;
+  }
+  
+  .image-container {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .perspective-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+  }
+  
+  .text-container {
+    flex: 2;
+    padding: 20px;
+    color: #333;
+    text-align: left;
+  }
+  
+  .text-container h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+  }
+  
+  .text-container .highlight {
+    color: #b91d1d;
+  }
+  
+  .text-container p {
+    font-size: 1.2em;
+    line-height: 1.6;
+    margin-bottom: 20px;
+  }
+  

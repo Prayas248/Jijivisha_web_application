@@ -1,0 +1,43 @@
+.linkcontainer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .linkrow {
+    align-items: center;
+    height: auto;
+    padding: 20px;
+    width: 80%;
+    border: 1px solid black;
+  }
+  .search-results {
+    position: absolute; /* Position results absolutely within the container */
+    top: 148%; /* Place results below the input field */
+    left: 0; /* Align results to the left edge of the container */
+    width: 100%; /* Make results as wide as the container */
+    background-color: white; /* Set background color for better visibility */
+    border: 1px solid #ddd; /* Add a border for styling */
+    list-style: none; /* Remove default list styling */
+    padding: 5px; /* Add some padding for better presentation */
+    z-index: 1; /* Ensure results appear above other elements */
+    max-height: 200px; /* Set a maximum height to prevent overflowing content */
+    overflow-y: auto; /* Enable scrolling if results exceed the max-height */
+  }
+  
+  
+  .col-md-6 {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  .search-input {
+    width: auto;
+    height: 30px;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 5px;
+  }

@@ -1,0 +1,25 @@
+.pc{
+    width: 60%;
+    margin-left: 6.5cm;
+    margin-top: 3cm;
+}
+.custom{
+    display: flex;
+    gap: 10px;
+    margin-bottom: 1.8cm;
+}
+.custom input{
+    margin-top: 17px;
+}
+#new-product-checkbox {
+    margin-left: 10px;
+  }
+  .back{
+    background-color: rgb(211, 211, 211);
+    height: 5cm;
+    border: 1px solid black;
+  }
+  .backtext{
+    margin-top: 40px;
+    font-size: 20px;
+  }

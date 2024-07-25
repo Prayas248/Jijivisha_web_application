@@ -1,0 +1,43 @@
+
+
+.registerContainer {
+    display: flex;
+    flex-direction: column;
+    width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    font-size: 24px;
+  }
+  
+  .registerContainer input {
+    height: 60px;
+    margin: 20px 60px;
+    font-size: 24px;
+  }
+  
+  #registerText {
+    margin: 20px 60px;
+  }
+  
+  #registerText2 {
+    margin: 10px 60px;
+  }
+  
+  #registerText3 {
+    margin: 10px 60px;
+  }
+  
+  #redUnderlinedText {
+    color: red;
+    border-bottom: 1px solid;
+  }
+  
+  .registerContainer button {
+    background-color: transparent;
+    border: transparent;
+    font-size: 24px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+  

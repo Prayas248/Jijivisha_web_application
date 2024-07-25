@@ -1,0 +1,92 @@
+
+/* src/components/ProductList.css */
+.customproduct-list {
+  max-width: 80vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: nowrap;
+}
+
+.customlistContainer {
+position: relative;
+display: flex;
+justify-content: center;
+align-items: center;
+flex: nowrap;
+}
+
+.customslidingInfo {
+position: relative;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+margin-top: 3cm;
+}
+
+.customproductBar {
+display: flex;
+justify-content: space-between;
+align-items: space-between;
+text-align: center;
+border-top: 1px solid;
+border-bottom: 1px solid;
+margin-bottom: 40px;
+}
+
+.customproductBar p {
+margin: 5px 30px;
+padding: 15px;
+}
+
+.customproductBar p:hover {
+color: #ff0000;
+cursor: pointer;
+}
+
+button.customprevButton,
+button.customnextButton {
+max-width: 2%;
+max-height: 2%;
+background: none;
+border: none;
+cursor: pointer;
+position: absolute;
+top: 50%;
+transform: translateY(-50%);
+display: flex;
+align-items: center;
+justify-content: center;
+padding: 20px; /* Adjust padding as needed */
+z-index: 1;
+}
+
+.customprevButton {
+left: 7%;
+}
+.customnextButton {
+right: 7%;
+}
+
+button.customprevButton img,
+button.customnextButton img {
+width: 40px;
+height: 40px;
+}
+
+.customprevButton img:hover,
+.customnextButton img:hover {
+filter: brightness(20%);
+}
+
+.customviewAllText {
+position: absolute;
+color: #ff0000;
+right: 5%;
+transform: translateY(80%);
+}
+
+.customviewAllText:hover {
+cursor: pointer;
+}
